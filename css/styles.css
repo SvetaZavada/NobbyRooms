@@ -1,27 +1,27 @@
 @font-face {
 	font-family: 'HelveticaNeueCyr';
-	src: url('//fonts/HelveticaNeueCyr-Light.otf');
+	src: url('../fonts/HelveticaNeueCyr-Light.otf');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'HelveticaNeueCyr';
-	src: url('//fonts/HelveticaNeueCyr-Thin.otf');
+	src: url('../fonts/HelveticaNeueCyr-Thin.otf');
 	font-weight: 100;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'HelveticaNeueCyr';
-	src: url('//fonts/HelveticaNeueCyr-Bold.otf');
+	src: url('../fonts/HelveticaNeueCyr-Bold.otf');
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Rosa Marena';
-	src: url('//fonts/rosa_marena.ttf');
+	src: url('../fonts/rosa_marena.ttf');
 }
 
 .clear {
@@ -40,9 +40,9 @@ div {
 	padding: 0;
 }
 
-img {
-	margin: 0;
-	padding: 0;
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .wrap {
@@ -55,7 +55,7 @@ header {
 }
 
 .logo {
-	padding: 27px 0 16px;
+	margin: 27px 0 16px;
 }
 
 
@@ -75,6 +75,14 @@ header {
 .menu ul li {
 	display: inline-block;
 	padding: 0 35px 0 0;
+}
+
+.menu .right li:nth-child(3) {
+	position: absolute;
+	margin-left: -10px;
+	padding: 3px 7px;
+	background: url(../img/circle.png) no-repeat;
+	font-size: 12px;
 }
 
 .left {
