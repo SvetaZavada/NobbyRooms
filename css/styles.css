@@ -258,12 +258,20 @@ span.large {
 	color: #464647;
 	font-size: 15px;
 	font-weight: 300;
-	padding-left: 10px;
+	padding-left: 32px;
 	margin-right: 20px;
 }
 
 .recall input::-webkit-input-placeholder { color: #464647; }
 .recall input::-moz-placeholder { color: #464647; }
+
+.recall input:first-child {
+	background: url(../img/name.png) no-repeat 7px 9px #bcbec0;
+}
+
+.recall input:nth-child(2) {
+	background: url(../img/phone.png) no-repeat 7px 9px #bcbec0;
+}
 
 .recall button {
 	background: #48484a;
