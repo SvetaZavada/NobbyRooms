@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('//fonts/HelveticaNeueCyr-Light.otf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Rosa Marena';
+	src: url('//fonts/rosa_marena.ttf');
+}
+
+
+.wrap {
+	min-width: 1280px;
+	width: 100%;
+}
+
+header {
+	text-align: center;
+}
+
+.logo {
+	padding: 27px 0 16px;
+}
+
+
+.menu {
+	background: #48484a;
+	height: 45px;
+}
+
+.menu-content {
+	width: 980px;
+	margin: auto;
+	color: #ffffff;
+	font: 300 17px 'HelveticaNeueCyr';
+}
+
+.menu ul li {
+	display: inline-block;
+	padding: 0 35px 0 0;
+	/*margin-top: -20px;*/
+}
+
+.left {
+	float: left;
+	margin-top: 7px;
+}
+
+.right {
+	float: right;
+	margin-top: 2px;
+}
+
+input.search {
+	background: #626366;
+	border: none;
+	border-radius: 5px;
+	width: 178px;
+	height: 28px;
+	color: #ffffff;
+	font: 300 17px 'HelveticaNeueCyr';
+	padding-left: 14px;
+}
+
+.photo img {
+	width: 100%;
+}
+
+.text {
+	text-align: center;
+	font: 50px 'Rosa Marena';
+}
+
+.blocks {
+	text-align: center;
+	background: linear-gradient(#fff, #626366);
+
+}
+
+.block {
+	display: inline-block;
+	padding: 0px 18px 0;
+}
+
+.block a {
+	color: #ffffff;
+	font: 300 17px 'HelveticaNeueCyr';
+	text-decoration: none;
+}
+
+.photo-text div {
+	display: inline-block;
+	width: 50%;
+	border: 1px solid #626366;
+}
+
