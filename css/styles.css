@@ -32,7 +32,6 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'HelveticaNeueCyr', Tahoma, sans-serif;
-
 }
 
 div {
@@ -43,6 +42,10 @@ div {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+ul {
+	margin: 0;
 }
 
 .wrap {
@@ -81,22 +84,6 @@ header {
 	padding: 5px 35px 5px 0;
 }
 
-.menu .right li:nth-child(3) {
-	position: absolute;
-	box-sizing: border-box;
-	width: 38px;
-	margin: 4px 0 0 -19px;
-	padding: 5px 0;
-	font-size: 12px;
-	text-align: center;
-	z-index: 1;
-}
-
-.menu .right li:nth-child(4) {
-	position: absolute;
-	margin-left: -10px;
-}
-
 ul.left {
 	float: left;
 	margin-top: 4px;
@@ -105,6 +92,17 @@ ul.left {
 .right {
 	float: right;
 	margin-top: 2px;
+}
+
+.cart span {
+	border: 1px solid #ffffff;
+	border-radius: 50px;
+	background: #ee2b7c;
+	padding: 2px 6px;
+	font-size: 12px;
+	display: block;
+	position: absolute;
+	margin-left: -8px;
 }
 
 input.search {
@@ -121,6 +119,8 @@ input.search {
 
 input.search::-webkit-input-placeholder { color: #ffffff; }
 input.search::-moz-placeholder { color: #ffffff; }
+
+/**MAIN**/
 
 .photo img {
 	width: 100%;
@@ -335,4 +335,97 @@ span.large {
 .pay {
 	background: #5c5d60;
 	padding: 10px 30px 60px;
+}
+
+/**CATALOG**/
+
+.catalog-menu {
+	background: #dcddde;
+	text-align: center;
+}
+
+.catalog-menu ul li {
+	display: inline-block;
+	padding: 5px 32px 15px;
+}
+
+.catalog-menu img {
+	margin-right: 10px;
+}
+
+.breadcrumbs {
+	margin: 20px;
+}
+
+.title-block {
+	box-sizing: border-box;
+	background: #48484a;
+	width: 200px;
+	margin: 20px 20px 0;
+	padding: 7px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.float-block {
+	float: left;
+	margin: 20px 0 20px 20px;
+	width: 200px;
+}
+
+.title {
+	box-sizing: border-box;
+	border: 1px solid #e6e7e8;
+	background: #e6e7e8;
+	width: 200px;
+	padding: 10px 20px;
+	color: #252525;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+.title .arrow {
+	float: right;
+	margin-top: 5px;
+	background: url("../img/arrow-down.png") no-repeat center;
+	width: 17px;
+	height: 17px;
+}
+
+.title.close {
+	background: #ffffff;
+}
+
+.title.close .arrow {
+	background: url("../img/arrow-right.png") no-repeat center;
+}
+
+.content {
+	box-sizing: border-box;
+	width: 200px;
+	border: 1px solid #e6e7e8;
+	padding: 20px 20px 0;
+	overflow: hidden;
+}
+
+.content div {
+	float: left;
+	margin: 0 7px 20px 0;
+}
+
+.content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+
+.content ul li {
+	padding-bottom: 20px;
+}
+
+.text-block {
+	margin: 20px;
 }
