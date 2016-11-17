@@ -370,9 +370,22 @@ span.large {
 }
 
 .float-block {
+	box-sizing: border-box;
 	float: left;
-	margin: 20px 0 20px 20px;
+	margin: 20px 0px 0px 20px;
 	width: 200px;
+}
+
+.country {
+	display: block;
+	box-sizing: border-box;
+	width: 200px;
+	position: absolute;
+	text-align: center;
+	color: #98989d;
+	font-size: 14px;
+	font-weight: 300;
+	margin: -30px 0;
 }
 
 .title {
@@ -419,11 +432,28 @@ span.large {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .content ul li {
 	padding-bottom: 20px;
+}
+
+.content span {
+	display: block;
+	font-size: 14px;
+	margin: 0 8px 20px 0;
+}
+
+.content img.line {
+	/*margin-top: 5px;*/
+	padding: 4px;
+	border: 1px solid #e6e7e8;
+	border-radius: 50px;
+}
+
+.content .line {
+	float: left;
 }
 
 .text-block {
