@@ -72,22 +72,34 @@ header {
 	font-weight: 100;
 }
 
+.menu ul {
+	margin: 0;
+}
+
 .menu ul li {
 	display: inline-block;
-	padding: 0 35px 0 0;
+	padding: 5px 35px 5px 0;
 }
 
 .menu .right li:nth-child(3) {
 	position: absolute;
-	margin-left: -10px;
-	padding: 3px 7px;
-	background: url(../img/circle.png) no-repeat;
+	box-sizing: border-box;
+	width: 38px;
+	margin: 4px 0 0 -19px;
+	padding: 5px 0;
 	font-size: 12px;
+	text-align: center;
+	z-index: 1;
 }
 
-.left {
+.menu .right li:nth-child(4) {
+	position: absolute;
+	margin-left: -10px;
+}
+
+ul.left {
 	float: left;
-	margin-top: 7px;
+	margin-top: 4px;
 }
 
 .right {
@@ -140,7 +152,7 @@ input.search::-moz-placeholder { color: #ffffff; }
 }
 
 .photo-text {
-	margin: auto;
+	margin: 20px auto;
 }
 
 .photo-text .line-left {
@@ -228,11 +240,14 @@ span.large {
 	list-style: none;
 }
 
+.empty {
+	background: #48484a;
+	height: 36px;
+}
+
 .feed {
 	box-sizing: border-box;
-	/*position: absolute;*/
 	width: 100%;
-	margin-top: 36px;
 	background: #5c5d60;
 	padding: 10px 30px;
 }
@@ -319,5 +334,5 @@ span.large {
 
 .pay {
 	background: #5c5d60;
-	padding: 10px 30px;
+	padding: 10px 30px 60px;
 }
