@@ -28,6 +28,10 @@
 	clear: both;
 }
 
+.clear-right {
+	clear: right;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -46,6 +50,17 @@ a {
 
 ul {
 	margin: 0;
+}
+
+h1 {
+	margin: 0;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 17px;
+	font-weight: 100;
 }
 
 .wrap {
@@ -372,8 +387,8 @@ span.large {
 .float-block {
 	box-sizing: border-box;
 	float: left;
-	margin: 20px 0px 0px 20px;
-	width: 200px;
+	margin: 20px 0 0 20px;
+	/*width: 200px;*/
 }
 
 .country {
@@ -458,4 +473,67 @@ span.large {
 
 .text-block {
 	margin: 20px;
+}
+
+/**COLLECTION**/
+
+.float-block ul {
+	display: inline-block;
+	font-size: 14px;
+	list-style: none;
+	padding: 0 60px 0 0;
+}
+
+.float-block ul li{
+	padding-bottom: 10px;
+}
+
+.float-block.text--block {
+	width: calc(100% - 250px);
+}
+
+.table {
+	display: table;
+}
+
+.table ul {
+	display: table-cell;
+}
+
+.name {
+	display: block;
+	box-sizing: border-box;
+	width: 200px;
+	position: relative;
+	text-align: right;
+	color: #231f20;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 5px -5px;
+}
+
+.name span {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.label {
+	background: #ffffff;
+	border-radius: 100px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin: 50px 110px;
+}
+
+.label p {
+	margin-top: 25px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+
+.label span {
+	font-size: 31px;
 }
